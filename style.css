@@ -1,0 +1,61 @@
+/* body */
+body {
+    background-color: grey;
+}
+
+
+/*header */
+.title {
+    margin-top: 0.5em;
+   text-align: center;
+   font-size: 3em;
+   color:darkslategray;
+   font-weight: 900;
+}
+
+
+
+/* Main */
+main {
+display:flex;
+flex-direction:column;
+
+
+}
+
+.container {
+display: flex;
+margin: 10px;
+background-color: white;
+box-shadow: 8px 8px 8px #b91717;
+max-width:500px;
+height:400px;
+}
+
+.square {
+    flex: 1 1 40px;
+    height: 40px;
+}
+
+.sidebar {
+
+
+}
+
+/* Footer   */
+footer {
+
+
+}
+.column {
+    display: flex;
+    align-items: stretch;
+    flex: 1 1 40px;
+    flex-direction: column;
+}
+
+#numSquares {
+    width:60px;
+    padding:0.5em;
+    text-align: center;
+}
